@@ -14,12 +14,6 @@ variable "organization" {
   type        = string
 }
 
-variable "tags" {
-  type        = list(string)
-  description = "(Optional) List of tags that will be used when determining the workspace IDs. Required if create_variable_set is set to true."
-  default     = []
-}
-
 variable "workspace" {
   description = "(Required) Name of the Workspace where the workspaces reside"
   type        = string
