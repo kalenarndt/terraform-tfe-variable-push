@@ -4,5 +4,9 @@ terraform {
     tfe = {
       version = ">=0.30.0"
     }
+    random = {
+      source  = "hashicorp/random"
+      version = ">=3.4.3"
+    }
   }
 }
